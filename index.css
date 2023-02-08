@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  background: var(--very-dark-blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.card {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+}
+
+.thank-you--card {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+}
+
+
+.card h2 {
+  color: var(--white);
+  margin: 2rem 0 1rem;
+}
+
+.card p {
+  color: var(--light-grey);
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card .rating--numbers ul li button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: hsl(213, 19%, 23%);
+  color: var(--white);
+  padding-top: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card .rating--numbers ul li button:hover {
+  background-color: var(--orange);
+}
+
+.card .rating--numbers ul li button:focus {
+  background-color: var(--light-grey);
+}
+
+.card .rating--numbers {
+  min-width: 100%;
+}
+
+.card--icon img {
+  background-color: hsl(213, 19%, 23%);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.card--footer {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--footer button,
+.thank-you--card button {
+  font-family: inherit;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  border-radius: 30px;
+  box-sizing: border-box;
+  min-width: 80%;
+  cursor: pointer;
+  padding: 0.8rem 0 0.7rem;
+  transition: 0.3s;
+}
+
+.card--footer button:hover,
+.thank-you--card button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+.thank-you--card img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.thank-you--card p.rating--box {
+  color: var(--orange);
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  padding: .4rem .6rem .2rem;
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+
+.thank-you--card h2 {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.thank-you--card p {
+  color: var(--light-grey);
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: var(--white);
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* CSS */
+/*.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}*/
