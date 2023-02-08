@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/hmark94/interactive-rating-component)
+- Live Site URL: [Netlify](https://bright-frangipane-e30c87.netlify.app/)
 
 ## My process
 
